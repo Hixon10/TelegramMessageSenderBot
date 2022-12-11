@@ -5,6 +5,7 @@ Send a text, or images to your telegram account via Web UI or HTTP API.
 You can send messages and images to your telegram account, using this UI [https://telegrammessagesenderbot-web.pages.dev/](https://telegrammessagesenderbot-web.pages.dev/).
 
 ## Send a text with cURL
+You can send notifications from your CI/CD, or just Alerts about Incidents to your telegram, using the following API:
 ```
 curl --request POST \
   --url https://telegram-sender.workers-platform.workers.dev/sendMessage \
