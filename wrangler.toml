@@ -1,8 +1,0 @@
-# Top-level configuration
-name = "telegram-sender"
-main = "bot-worker.js"
-compatibility_date = "2022-12-11"
-
-kv_namespaces = [
-  { binding = "TELEGRAM_TOKEN_STORE", id = "TELEGRAM_TOKEN_STORE-id" }
-]
